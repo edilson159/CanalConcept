@@ -60,6 +60,26 @@ const Data = [
       },
     ],
   },
+  {
+    sectionBanner1: [
+      {
+        img: "../imgs/banner2.svg",
+        span: "sale 50% off",
+        title: " lorem ipsum dolor sit ",
+        paragraph:
+          "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        button: "shop now",
+      },
+      {
+        img: "../imgs/banner3.svg",
+        span: "sale 50% off",
+        title: " lorem ipsum dolor sit ",
+        paragraph:
+          "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        button: "shop now",
+      },
+    ],
+  },
 ];
 
 export default Data;

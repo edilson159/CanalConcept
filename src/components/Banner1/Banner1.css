@@ -41,6 +41,7 @@
   line-height: 20px;
   letter-spacing: 0.6em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .container-banner-1-title {
@@ -51,6 +52,7 @@
   text-align: left;
   width: 283px;
   margin-top: 4px;
+  text-transform: uppercase;
 }
 
 .container-banner-1-paragraph {
@@ -73,6 +75,7 @@
   letter-spacing: 0.2em;
   text-align: center;
   color: var(--color-2);
+  text-transform: uppercase;
 }
 
 .container-banner-1 button.slick-arrow.slick-next {
