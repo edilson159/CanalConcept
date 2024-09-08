@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Data from "../components/Data/Data";
 import Header from "../components/Header/Header";
 import { Context } from "../components/Context/Context";
+import HeaderBenefit from "../components/HeaderBenefit/HeaderBenefit";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -23,6 +24,9 @@ const Home = (props) => {
   return (
     <Context.Provider value={{ isMobile, setIsMobile }}>
       <section>
+        <HeaderBenefit
+          data={props.data || Data.find((e) => e.headerBenfit).headerBenfit}
+        />
         {isMobile ? (
           <Header
             data={
