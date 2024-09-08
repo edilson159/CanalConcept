@@ -1,0 +1,119 @@
+@import "../../style/Variaveis.css";
+
+.container-banner-1 {
+  width: 100%;
+}
+
+.container-banner-1-card {
+  position: relative;
+  width: 100%;
+}
+
+.container-banner-1-img {
+  width: 100%;
+}
+
+.container-banner-1-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000000000000;
+  bottom: 69px;
+  width: 100%;
+}
+
+.container-banner-1-description-p1 {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 30px;
+  color: var(--color-2);
+  gap: 13px;
+  max-width: 295px;
+}
+
+.container-banner-1-span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.6em;
+  text-align: left;
+}
+
+.container-banner-1-title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  width: 283px;
+  margin-top: 4px;
+}
+
+.container-banner-1-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  width: 312px;
+  margin-top: 12px;
+}
+
+.container-banner-1-button {
+  width: 295px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid var(--color-2);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: var(--color-2);
+}
+
+.container-banner-1 button.slick-arrow.slick-next {
+  background-image: url(/public/imgs/arrowRigth.svg);
+  right: 105px;
+  z-index: 100000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px;
+  width: 21px;
+  bottom: 12px;
+  top: unset;
+}
+
+.container-banner-1 .slick-next::before {
+  opacity: 0;
+  color: transparent;
+}
+
+.container-banner-1 button.slick-arrow.slick-prev {
+  background-image: url(/public/imgs/arrowLeft.svg);
+  left: 105px;
+  z-index: 100000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px;
+  width: 21px;
+  bottom: 12px;
+  top: unset;
+}
+
+.container-banner-1 .slick-prev::before {
+  color: transparent;
+  opacity: 0;
+}
+
+.container-banner-1 .slick-dots {
+  bottom: 20px;
+}
+
+.container-banner-1 .slick-dots button::before {
+  filter: invert(1);
+  font-size: 13px !important ;
+}

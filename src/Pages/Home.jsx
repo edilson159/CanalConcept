@@ -3,6 +3,7 @@ import Data from "../components/Data/Data";
 import Header from "../components/Header/Header";
 import { Context } from "../components/Context/Context";
 import HeaderBenefit from "../components/HeaderBenefit/HeaderBenefit";
+import Banner1 from "../components/Banner1/Banner1";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -38,6 +39,13 @@ const Home = (props) => {
           />
         ) : (
           <Header />
+        )}
+        {isMobile ? (
+          <Banner1
+            data={props.data || Data.find((e) => e.bannerMobile).bannerMobile}
+          />
+        ) : (
+          <Banner1 />
         )}
       </section>
     </Context.Provider>
