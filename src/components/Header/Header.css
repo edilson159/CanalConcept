@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 30px;
+  top: 20px;
   z-index: 1000000000000000;
 }
 
@@ -15,7 +15,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 19px 10px 0px 20px;
+  padding: 0px 0px 0px 20px;
+  height: 59px;
+}
+
+.hover {
+  background-color: var(--color-2);
+}
+
+.active {
+  background-color: var(--color-2);
+  top: 0px;
 }
 
 .container-header-card-1 {
@@ -24,6 +34,13 @@
   gap: 18px;
   font-family: var(--font-1);
   color: var(--color-2);
+}
+
+.hover .container-header-card-1-p1 {
+  filter: invert(1);
+}
+.active .container-header-card-1-p1 {
+  filter: invert(1);
 }
 .container-header-card-1-p1 {
   font-family: var(--font-1);
@@ -41,7 +58,14 @@
   gap: 19px;
   align-items: center;
   font-family: var(--font-1);
-  height: 100%;
+  height: 59px;
+}
+
+.hover .container-header-img-search {
+  filter: invert(1);
+}
+.active .container-header-img-search {
+  filter: invert(1);
 }
 
 .container-header-card-2-p1 {
@@ -52,6 +76,16 @@
   height: 100%;
   justify-content: center;
   color: var(--color-2);
+  padding-right: 10px;
+}
+
+.hover .container-header-card-2-p1 {
+  background-color: var(--color-1);
+  height: 100%;
+}
+.active .container-header-card-2-p1 {
+  background-color: var(--color-1);
+  height: 59px;
 }
 
 .container-header-card-3 {

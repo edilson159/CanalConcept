@@ -2,10 +2,25 @@ import UseContext from "../Hook/UseContext";
 import "./Header.css";
 
 const Header = (props) => {
-  const { isMobile } = UseContext();
+  const { isMobile, scrolled3, setScroulled, hover, setHover } = UseContext();
+
+  function togleHover() {
+    if (window.scrollY > 40) {
+      setHover(hover);
+    } else {
+      setHover(!hover);
+    }
+  }
+
   return (
-    <header className={`container-header ${isMobile ? "mobile" : "desktop"}`}>
-      <div className="container-header-card">
+    <header
+      onMouseEnter={togleHover}
+      onMouseLeave={togleHover}
+      className={`container-header ${scrolled3 ? "active" : ""} ${
+        hover ? "hover" : ""
+      } ${isMobile ? "mobile" : "desktop"}`}
+    >
+      <div className={`container-header-card  `}>
         <div className="container-header-card-1">
           {props.data.slice(0, 2).map(({ icon, name }, index) => (
             <div className="container-header-card-1-p1" key={index}>
@@ -17,7 +32,12 @@ const Header = (props) => {
         <div className="container-header-card-2">
           {props.data.map(({ icon }, index) =>
             icon === "../imgs/iconSearch.svg" ? (
-              <img key={index} src={icon} alt="" />
+              <img
+                className="container-header-img-search"
+                key={index}
+                src={icon}
+                alt=""
+              />
             ) : (
               ""
             )

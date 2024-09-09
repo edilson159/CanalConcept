@@ -8,6 +8,7 @@ import SectionBanner1 from "../components/SectionBanner1/SectionBanner1";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [hover, setHover] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -23,8 +24,35 @@ const Home = (props) => {
     };
   }, []);
 
+  const [scrolled3, setScroulled] = useState(false);
+
+  useEffect(() => {
+    const handleScroull = () => {
+      if (window.scrollY > 80) {
+        setScroulled(true);
+      } else {
+        setScroulled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroull);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroull);
+    };
+  }, []);
+
   return (
-    <Context.Provider value={{ isMobile, setIsMobile }}>
+    <Context.Provider
+      value={{
+        isMobile,
+        setIsMobile,
+        hover,
+        setHover,
+        scrolled3,
+        setScroulled,
+      }}
+    >
       <section>
         <HeaderBenefit
           data={props.data || Data.find((e) => e.headerBenfit).headerBenfit}
