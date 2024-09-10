@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Data from "../components/Data/Data";
 import Header from "../components/Header/Header";
 import { Context } from "../components/Context/Context";
@@ -11,6 +11,8 @@ const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
   const [hover, setHover] = useState(false);
   const [open, setOpen] = useState();
+  const [summaryOpen, setSummaryOpen] = useState(false);
+  const detailsRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -64,6 +66,9 @@ const Home = (props) => {
         setScroulled,
         open,
         setOpen,
+        summaryOpen,
+        setSummaryOpen,
+        detailsRef,
       }}
     >
       <section>

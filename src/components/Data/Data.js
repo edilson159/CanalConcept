@@ -103,113 +103,151 @@ const Data = [
         title: "NEW IN",
         children: [
           {
+            link: "//",
             name: "blusas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
         ],
       },
       {
+        iconClose: "../imgs/iconClose.svg",
+        iconOpen: "../imgs/iconOpen.svg",
         title: "ROUPAS",
         children: [
           {
+            link: "//",
             name: "blusas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
         ],
       },
       {
+        iconClose: "../imgs/iconClose.svg",
+        iconOpen: "../imgs/iconOpen.svg",
         title: "ESSENTIAL",
         children: [
           {
+            link: "//",
             name: "blusas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
         ],
       },
       {
+        iconClose: "../imgs/iconClose.svg",
+        iconOpen: "../imgs/iconOpen.svg",
         title: "JEANS",
         children: [
           {
+            link: "//",
             name: "blusas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
         ],
       },
       {
+        iconClose: "../imgs/iconClose.svg",
+        iconOpen: "../imgs/iconOpen.svg",
         title: "OUTLET",
         children: [
           {
+            link: "//",
             name: "blusas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
           {
+            link: "//",
             name: "jaquetas",
           },
         ],
