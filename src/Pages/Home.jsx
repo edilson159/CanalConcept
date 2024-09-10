@@ -5,6 +5,7 @@ import { Context } from "../components/Context/Context";
 import HeaderBenefit from "../components/HeaderBenefit/HeaderBenefit";
 import Banner1 from "../components/Banner1/Banner1";
 import SectionBanner1 from "../components/SectionBanner1/SectionBanner1";
+import Institutional from "../components/Institutional/Institutional";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -28,7 +29,7 @@ const Home = (props) => {
 
   useEffect(() => {
     const handleScroull = () => {
-      if (window.scrollY > 80) {
+      if (window.scrollY > 40) {
         setScroulled(true);
       } else {
         setScroulled(false);
@@ -76,9 +77,8 @@ const Home = (props) => {
         ) : (
           <Banner1 />
         )}
-        <SectionBanner1
-          data={props.data || Data.find((e) => e.sectionBanner1).sectionBanner1}
-        />
+        <SectionBanner1 />
+        <Institutional />
       </section>
     </Context.Provider>
   );

@@ -80,6 +80,19 @@ const Data = [
       },
     ],
   },
+  {
+    institutional: [
+      {
+        description1:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc  ",
+        description2: "libero et velit interdum, ac aliquet odio mattis.",
+        span: "vulputate ",
+        ancora: "saiba mais",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+    ],
+  },
 ];
 
 export default Data;

@@ -1,0 +1,49 @@
+.container-institutional {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-institutional-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 0px 40px;
+  width: 360px;
+}
+
+.container-institutional-description {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.container-institutional-span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.container-institutional-card-p1 {
+  display: flex;
+  gap: 10px;
+}
+
+.container-institutional-ancora {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+.container-institutional-icon {
+  filter: invert(1);
+}
