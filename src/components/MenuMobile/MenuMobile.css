@@ -1,0 +1,149 @@
+.hidden {
+  display: none;
+}
+
+.container-menu-lateral {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100000;
+}
+
+.container-drawer {
+  overflow: auto;
+  position: fixed;
+  top: 79px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-drawer-p {
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-drawer- {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all;
+}
+
+.container-drawer-p1 {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 20px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-drawer-p2 {
+  overflow: auto;
+  position: fixed;
+  top: 79px;
+  left: 10px;
+  background-color: #ffffff;
+  width: 95%;
+  height: 70%;
+}
+
+.container-menu-hamburguer {
+  background: transparent;
+  border: none;
+}
+
+.container-menu-hamburguer .button-active {
+  filter: invert(1);
+}
+
+.container-menu-hamburguer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.container-menu-hamburguer .container-menu-hamburguer-name-open {
+  color: var(--color-2);
+  font-family: var(--font-1);
+  font-size: 7px;
+  font-weight: 500;
+  line-height: 8.2px;
+  letter-spacing: 0.06em;
+}
+.container-menu-hamburguer .container-menu-hamburguer-name-close {
+  font-family: var(--font-1);
+  font-size: 7px;
+  font-weight: 500;
+  line-height: 8.2px;
+  letter-spacing: 0.06em;
+}
+
+/* .container-menu-hamburguer-open {
+  background: url("/public/imgs/iconMenuMobile.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 100000;
+  top: -5px;
+  background-size: 24px;
+}
+
+.container-menu-hamburguer-open-w {
+  background: url("/public/img/imgClose.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 100000;
+  top: -5px;
+  background-size: 24px;
+}
+.container-menu-hamburguer-close {
+  background: url("/public/imgs/iconMenuMobileClose.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 100000;
+  background-size: 15px;
+} */
+
+.scrolledM {
+  display: flex;
+  align-items: center;
+}
+
+.scrolledM .container-menu-hamburguer-open {
+  filter: invert(0);
+}
+
+.container-menu-lateral .container-menu-hamburguer-open {
+  filter: invert(1);
+}
+
+.container-item-card-menu-lateral {
+  position: relative;
+  width: 100%;
+}
+
+.card-item-menu-lateral {
+  position: absolute;
+  width: 92%;
+  left: 25px;
+  top: 70px;
+}
+
+@media (min-width: 1025px) {
+  .container-menu-lateral {
+    display: none;
+  }
+  .scrolledM {
+    display: none;
+  }
+}

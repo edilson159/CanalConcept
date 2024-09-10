@@ -1,8 +1,9 @@
+import MenuMobile from "../MenuMobile/MenuMobile";
 import UseContext from "../Hook/UseContext";
 import "./Header.css";
 
 const Header = (props) => {
-  const { isMobile, scrolled3, setScroulled, hover, setHover } = UseContext();
+  const { isMobile, scrolled3, hover, setHover, open } = UseContext();
 
   function togleHover() {
     if (window.scrollY > 40) {
@@ -18,16 +19,24 @@ const Header = (props) => {
       onMouseLeave={togleHover}
       className={`container-header ${scrolled3 ? "active" : ""} ${
         hover ? "hover" : ""
-      } ${isMobile ? "mobile" : "desktop"}`}
+      } ${open ? "open active" : ""} ${isMobile ? "mobile" : "desktop"}`}
     >
       <div className={`container-header-card  `}>
         <div className="container-header-card-1">
-          {props.data.slice(0, 2).map(({ icon, name }, index) => (
-            <div className="container-header-card-1-p1" key={index}>
-              <img src={icon} alt="" />
-              {name && <p>{name}</p>}
-            </div>
-          ))}
+          <div className="container-header-card-1-p1">
+            <MenuMobile />
+            {props.data.map(
+              ({ icon }, index) =>
+                icon === "../imgs/logoMain.svg" && (
+                  <img
+                    className="container-header-img-logo"
+                    key={index}
+                    src={icon}
+                    alt=""
+                  />
+                )
+            )}
+          </div>
         </div>
         <div className="container-header-card-2">
           {props.data.map(({ icon }, index) =>
@@ -42,7 +51,7 @@ const Header = (props) => {
               ""
             )
           )}
-          {props.data.slice(4, 5).map(({ icon, number }, index) => (
+          {props.data.slice(2, 3).map(({ icon, number }, index) => (
             <div className="container-header-card-2-p1" key={index}>
               <div className="container-header-card-3">
                 <img src={icon} alt="" />

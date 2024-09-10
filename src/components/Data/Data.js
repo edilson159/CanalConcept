@@ -4,15 +4,7 @@ const Data = [
       {
         informations: [
           {
-            icon: "../imgs/iconMenuMobile.svg",
-            name: "MENU",
-          },
-          {
             icon: "../imgs/logoMain.svg",
-          },
-          {
-            icon: "../imgs/iconMenuMobileClose.svg",
-            name: "FECHAR",
           },
           {
             icon: "../imgs/iconSearch.svg",
@@ -90,6 +82,137 @@ const Data = [
         ancora: "saiba mais",
         link: "//",
         icon: "../imgs/arrowRigth.svg",
+      },
+    ],
+  },
+  {
+    menuMobile: [
+      {
+        iconMenu: "../imgs/iconMenuMobile.svg",
+        nameOpen: "  MENU",
+        iconMenuClose: "../imgs/iconMenuMobileClose.svg",
+        nameClose: "FECHAR",
+      },
+    ],
+  },
+  {
+    summaryMenu: [
+      {
+        iconClose: "../imgs/iconClose.svg",
+        iconOpen: "../imgs/iconOpen.svg",
+        title: "NEW IN",
+        children: [
+          {
+            name: "blusas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+        ],
+      },
+      {
+        title: "ROUPAS",
+        children: [
+          {
+            name: "blusas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+        ],
+      },
+      {
+        title: "ESSENTIAL",
+        children: [
+          {
+            name: "blusas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+        ],
+      },
+      {
+        title: "JEANS",
+        children: [
+          {
+            name: "blusas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+        ],
+      },
+      {
+        title: "OUTLET",
+        children: [
+          {
+            name: "blusas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+          {
+            name: "jaquetas",
+          },
+        ],
       },
     ],
   },

@@ -10,6 +10,7 @@ import Institutional from "../components/Institutional/Institutional";
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
   const [hover, setHover] = useState(false);
+  const [open, setOpen] = useState();
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,6 +44,15 @@ const Home = (props) => {
     };
   }, []);
 
+  function toggleScrollPageHome() {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }
+  toggleScrollPageHome();
+
   return (
     <Context.Provider
       value={{
@@ -52,6 +62,8 @@ const Home = (props) => {
         setHover,
         scrolled3,
         setScroulled,
+        open,
+        setOpen,
       }}
     >
       <section>
