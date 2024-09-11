@@ -2,6 +2,7 @@ import "./MenuMobile.css";
 import UseContext from "../Hook/UseContext";
 import Data from "../Data/Data";
 import SummaryMenu from "../SummaryMenu/SummaryMenu";
+import FooterMenu from "../FooterMenu/FooterMenu";
 
 function Drawer({ open }) {
   return (
@@ -13,6 +14,7 @@ function Drawer({ open }) {
       <div className="container-drawer-p1" />
       <div className="container-drawer-p2 ">
         <SummaryMenu />
+        <FooterMenu />
       </div>
     </div>
   );

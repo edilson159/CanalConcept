@@ -1,0 +1,29 @@
+.container-footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  position: absolute;
+  z-index: 100000000000000;
+  bottom: 73px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 30px;
+  background-color: var(--color-2);
+}
+
+.container-footer-menu-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 19px;
+}
+
+.container-footer-menu-card-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: var(--color-1);
+}

@@ -254,6 +254,22 @@ const Data = [
       },
     ],
   },
+  {
+    footerMenu: [
+      {
+        name: "Lojas",
+        icon: "../imgs/iconStores.svg",
+      },
+      {
+        name: "WISHLIST",
+        icon: "../imgs/iconHeart.svg",
+      },
+      {
+        name: "MINHA CONTA",
+        icon: "../imgs/iconUser.svg",
+      },
+    ],
+  },
 ];
 
 export default Data;
