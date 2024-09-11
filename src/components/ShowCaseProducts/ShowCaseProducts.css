@@ -1,0 +1,123 @@
+.container-showCase-products {
+  margin-top: 111px;
+}
+
+.container-showCase-products .slick-track {
+  display: flex;
+  gap: 4px;
+}
+
+.container-showCase-products-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  margin-bottom: 38px;
+}
+
+.container-showCase-products-header p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.6em;
+  text-align: center;
+}
+.container-showCase-products-header h2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.container-showCase-products-header-p1 {
+  display: flex;
+  gap: 10px;
+}
+
+.container-showCase-products-header-p1 a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+.container-showCase-products-header-p1 img {
+  filter: invert(1);
+}
+
+.container-showCase-products-showCase {
+  width: 100%;
+  position: relative;
+}
+
+.container-showCase-products-discount {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 50px;
+  height: 20px;
+  background-color: var(--color-1);
+  color: var(--color-2);
+}
+
+.container-showCase-products-discount p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.container-showCase-products-discount span {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+.container-showCase-products-img {
+  width: 100%;
+}
+
+.container-showCase-products-description {
+  display: flex;
+  flex-direction: column;
+  gap: 9.79px;
+  padding: 10.21px 0px 0px 13.82px;
+}
+
+.container-showCase-products-description-item {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+}
+
+.container-showCase-products-description-p1 {
+  display: flex;
+  gap: 4px;
+}
+
+.container-showCase-products-current-price {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: left;
+}
+
+.container-showCase-products-old-price {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  text-decoration: line-through;
+}

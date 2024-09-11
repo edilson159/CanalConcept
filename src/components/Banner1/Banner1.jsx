@@ -14,17 +14,6 @@ const Banner1 = (props) => {
   };
   return (
     <section className="container-banner-1">
-      <link
-        rel="stylesheet"
-        type="text/css"
-        charset="UTF-8"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      />
       <Slider {...settings}>
         {props.data.map(({ img, span, title, paragraph, button }, index) => (
           <div className="container-banner-1-card" key={index}>

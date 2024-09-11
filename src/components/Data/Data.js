@@ -270,6 +270,99 @@ const Data = [
       },
     ],
   },
+
+  {
+    showCaseProducts: [
+      {
+        img: "../imgs/imgProducts.svg",
+        title: "summer colletcion",
+        name: "new in",
+        ancora: "ir para coleção",
+        link: "//",
+        iconArrow: "../imgs/arrowRigth.svg",
+        description: "BODY MALHA SM DRAPEADO LISO-VERMELHO",
+        oldPrice: "R$ 399,99",
+        currentPrice: "R$ 200,00 • ",
+        discount: "50% ",
+        span: "off",
+      },
+      {
+        img: "../imgs/imgProducts.svg",
+        description: "BODY MALHA SM DRAPEADO LISO-VERMELHO",
+        oldPrice: "R$ 399,99",
+        currentPrice: "R$ 200,00 • ",
+        discount: "50% ",
+        span: "off",
+      },
+      {
+        img: "../imgs/imgProducts.svg",
+        description: "BODY MALHA SM DRAPEADO LISO-VERMELHO",
+        oldPrice: "R$ 399,99",
+        currentPrice: "R$ 200,00 • ",
+        discount: "50% ",
+        span: "off",
+      },
+      {
+        img: "../imgs/imgProducts.svg",
+        description: "BODY MALHA SM DRAPEADO LISO-VERMELHO",
+        oldPrice: "R$ 399,99",
+        currentPrice: "R$ 200,00 • ",
+        discount: "50% ",
+        span: "off",
+      },
+      {
+        img: "../imgs/imgProducts.svg",
+        description: "BODY MALHA SM DRAPEADO LISO-VERMELHO",
+        oldPrice: "R$ 399,99",
+        currentPrice: "R$ 200,00 • ",
+        discount: "50% ",
+        span: "off",
+      },
+    ],
+  },
+  {
+    showCaseCategory: [
+      {
+        img: "../imgs/imgCategory1.svg",
+        title: "blusas",
+        name: "ver mais",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+      {
+        img: "../imgs/imgCategory2.svg",
+        title: "jaquetas",
+        name: "ver mais",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+      {
+        img: "../imgs/imgCategory3.svg",
+        title: "casacos",
+        name: "ver mais",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+      {
+        img: "../imgs/imgCategory4.svg",
+        title: "calças",
+        name: "ver mais",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+    ],
+  },
+  {
+    sectionBanner2: [
+      {
+        img: "../imgs/imgBanner",
+        name: "",
+        ancora: "",
+        link: "",
+        icon: "../imgs/",
+      },
+    ],
+  },
 ];
 
 export default Data;

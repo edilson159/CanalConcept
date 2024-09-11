@@ -6,6 +6,7 @@ import HeaderBenefit from "../components/HeaderBenefit/HeaderBenefit";
 import Banner1 from "../components/Banner1/Banner1";
 import SectionBanner1 from "../components/SectionBanner1/SectionBanner1";
 import Institutional from "../components/Institutional/Institutional";
+import ShowCaseProducts from "../components/ShowCaseProducts/ShowCaseProducts";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -96,6 +97,7 @@ const Home = (props) => {
         )}
         <SectionBanner1 />
         <Institutional />
+        <ShowCaseProducts />
       </section>
     </Context.Provider>
   );
