@@ -27,11 +27,6 @@
   list-style: none;
 }
 
-.container-summary-menu-summary div {
-  width: 300px;
-  height: 2px;
-}
-
 .summary-open {
   background-image: url(/public/imgs/iconOpen.svg);
   background-position: center;
@@ -42,6 +37,7 @@
   z-index: 100000000;
   width: 11px;
   height: 11px;
+  top: 5px;
   right: 15px;
 }
 

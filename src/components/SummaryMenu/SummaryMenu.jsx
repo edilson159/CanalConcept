@@ -31,7 +31,7 @@ const SummaryMenu = () => {
           >
             <summary className="container-summary-menu-summary">
               {title}
-              <img className="summary-open" src="" alt="" /> <div></div>
+              <img className="summary-open" src="" alt="" />
             </summary>
             {children.map(({ name, link }, index) => (
               <a
