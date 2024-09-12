@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useEffect, useRef, useState } from "react";
 import Data from "../components/Data/Data";
 import Header from "../components/Header/Header";
@@ -105,6 +106,10 @@ const Home = (props) => {
       </section>
     </Context.Provider>
   );
+};
+
+Home.propTypes = {
+  data: PropTypes.array, // Altere o tipo conforme necessário, como PropTypes.array.isRequired
 };
 
 export default Home;
