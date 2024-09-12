@@ -1,0 +1,27 @@
+.container-informations {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 40px 0px 58px 0px;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.container-informations-card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+
+.container-informations-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container-informations-description a {
+  text-decoration: none;
+  color: var(--color-1);
+}

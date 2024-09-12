@@ -394,6 +394,65 @@ const Data = [
       },
     ],
   },
+  {
+    informations: [
+      {
+        title: "INSTITUCIONAL",
+        children: [
+          {
+            name: "QUEM SOMOS",
+            link: "//",
+          },
+          {
+            name: "NOSSAS LOJAS",
+            link: "//",
+          },
+          {
+            name: "TRABALHE CONOSCO",
+            link: "//",
+          },
+          {
+            name: "FRANQUIAS E MULTIMARCAS",
+            link: "//",
+          },
+        ],
+      },
+      {
+        title: "minha conta",
+        children: [
+          {
+            name: "Meus pedidos",
+            link: "//",
+          },
+          {
+            name: "minha conta",
+            link: "//",
+          },
+          {
+            name: "trocar senha",
+            link: "//",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    footerMobile: [
+      {
+        img: "../imgs/imgSocial.svg",
+      },
+      {
+        img: "../imgs/certificado.svg",
+      },
+      {
+        img: "../imgs/pgmt.svg",
+      },
+      {
+        img: "../imgs/app.svg",
+        name: "A inclusão de um produto na sacola não garante seu preço. Em caso de variação, prevalecerá o preço vigente na finalização da compra. NRB COMPANY LTDA - Av. Tambore, 1043 - Tamboré Barueri - SP, CEP: 06460-000 CNPJ - 39.269.713/0004-33",
+      },
+    ],
+  },
 ];
 
 export default Data;

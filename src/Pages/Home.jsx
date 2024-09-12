@@ -11,6 +11,8 @@ import ShowCaseProducts from "../components/ShowCaseProducts/ShowCaseProducts";
 import ShowCaseCategory from "../components/ShowCaseCategory/ShowCaseCategory";
 import SectionBanner2 from "../components/SectionBanner2/SectionBanner2";
 import Register from "../components/Register/Register";
+import Information from "../components/Information/Information";
+import FooterMobile from "../components/FooterMobile/FooterMobile";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -105,6 +107,8 @@ const Home = (props) => {
         <ShowCaseCategory />
         <SectionBanner2 />
         <Register />
+        <Information />
+        <FooterMobile />
       </section>
     </Context.Provider>
   );
