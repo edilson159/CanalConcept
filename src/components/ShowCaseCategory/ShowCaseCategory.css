@@ -1,0 +1,61 @@
+.container-showCase-category {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.container-showCase-category .slick-track {
+  display: flex;
+  gap: 10.7px;
+}
+
+.container-showCase-category .slick-slide {
+}
+
+.container-showCase-category-card {
+  height: 100%;
+  max-height: 300px;
+  position: relative;
+}
+
+.container-showCase-category-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  color: var(--color-2);
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 26.7px;
+  z-index: 1000000;
+}
+
+.container-showCase-category-description h2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+.container-showCase-category-description-p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-showCase-category-description-p1 a {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+.container-showCase-category-img {
+  width: 100%;
+}

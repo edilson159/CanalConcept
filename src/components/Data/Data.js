@@ -355,11 +355,26 @@ const Data = [
   {
     sectionBanner2: [
       {
-        img: "../imgs/imgBanner",
-        name: "",
-        ancora: "",
-        link: "",
-        icon: "../imgs/",
+        img: "../imgs/imgBanner2.svg",
+        name: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      },
+      {
+        img: "../imgs/imgBanner3.svg",
+        name: "winter/fall 24",
+        ancora: "Ver coleção",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+      {
+        img: "../imgs/imgBanner4.svg",
+        name: "winter/fall 24",
+        ancora: "Ver coleção",
+        link: "//",
+        icon: "../imgs/arrowRigth.svg",
+      },
+      {
+        img: "../imgs/imgBanner5.svg",
+        name: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
       },
     ],
   },

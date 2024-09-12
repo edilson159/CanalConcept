@@ -7,6 +7,8 @@ import Banner1 from "../components/Banner1/Banner1";
 import SectionBanner1 from "../components/SectionBanner1/SectionBanner1";
 import Institutional from "../components/Institutional/Institutional";
 import ShowCaseProducts from "../components/ShowCaseProducts/ShowCaseProducts";
+import ShowCaseCategory from "../components/ShowCaseCategory/ShowCaseCategory";
+import SectionBanner2 from "../components/SectionBanner2/SectionBanner2";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -98,6 +100,8 @@ const Home = (props) => {
         <SectionBanner1 />
         <Institutional />
         <ShowCaseProducts />
+        <ShowCaseCategory />
+        <SectionBanner2 />
       </section>
     </Context.Provider>
   );
