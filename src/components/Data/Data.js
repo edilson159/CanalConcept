@@ -378,6 +378,22 @@ const Data = [
       },
     ],
   },
+  {
+    register: [
+      {
+        title: "RECEBA NOSSAS newsletter",
+        name: "Receba nossas novidades imperdíveis e promoções! ",
+        span: "Cadastre-se!",
+        placeholder: "nome",
+        input: "text",
+      },
+      {
+        placeholder: "e-mail",
+        input: "e-mail",
+        button: "cadastrar",
+      },
+    ],
+  },
 ];
 
 export default Data;

@@ -10,6 +10,7 @@ import Institutional from "../components/Institutional/Institutional";
 import ShowCaseProducts from "../components/ShowCaseProducts/ShowCaseProducts";
 import ShowCaseCategory from "../components/ShowCaseCategory/ShowCaseCategory";
 import SectionBanner2 from "../components/SectionBanner2/SectionBanner2";
+import Register from "../components/Register/Register";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -103,6 +104,7 @@ const Home = (props) => {
         <ShowCaseProducts />
         <ShowCaseCategory />
         <SectionBanner2 />
+        <Register />
       </section>
     </Context.Provider>
   );
