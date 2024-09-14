@@ -24,7 +24,7 @@ const Header = (props) => {
       <div className={`container-header-card  `}>
         <div className="container-header-card-1">
           <div className="container-header-card-1-p1">
-            <MenuMobile />
+            {isMobile && <MenuMobile />}
             {props.data.map(
               ({ icon }, index) =>
                 icon === "../imgs/logoMain.svg" && (

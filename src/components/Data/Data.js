@@ -20,7 +20,13 @@ const Data = [
   {
     headerBenfit: [
       {
+        name: "frete grátis a partir de R$399,99",
+      },
+      {
         name: "parcele em até 10x sem juros",
+      },
+      {
+        name: "whatsapp • |11| 95540 - 7230",
       },
     ],
   },
@@ -450,6 +456,81 @@ const Data = [
       {
         img: "../imgs/app.svg",
         name: "A inclusão de um produto na sacola não garante seu preço. Em caso de variação, prevalecerá o preço vigente na finalização da compra. NRB COMPANY LTDA - Av. Tambore, 1043 - Tamboré Barueri - SP, CEP: 06460-000 CNPJ - 39.269.713/0004-33",
+      },
+    ],
+  },
+  {
+    headerDesktop: [
+      {
+        img: "../imgs/logoMain.svg",
+        names: [
+          {
+            name: "_buscar",
+          },
+          {
+            name: "new in",
+          },
+          {
+            name: "roupas",
+          },
+          {
+            name: "essential",
+          },
+          {
+            name: "jeans",
+          },
+          {
+            name: "outlet",
+          },
+        ],
+      },
+      {
+        icons: [
+          {
+            icon: "../imgs/iconSearch.svg",
+          },
+          {
+            icon: "../imgs/iconStores.svg",
+          },
+          {
+            icon: "../imgs/iconHeart.svg",
+          },
+          {
+            icon: "../imgs/iconUser.svg",
+          },
+          {
+            icon: "../imgs/iconBag.svg",
+            number: "12",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    banner1Desktop: [
+      {
+        img: "../imgs/banner1Desktop.svg",
+        span: "sale 50% off",
+        title: " lorem ipsum dolor sit ",
+        paragraph:
+          "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        button: "shop now",
+      },
+      {
+        img: "../imgs/banner1Desktop.svg",
+        span: "sale 50% off",
+        title: " lorem ipsum dolor sit ",
+        paragraph:
+          "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        button: "shop now",
+      },
+      {
+        img: "../imgs/banner1Desktop.svg",
+        span: "sale 50% off",
+        title: " lorem ipsum dolor sit ",
+        paragraph:
+          "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        button: "shop now",
       },
     ],
   },

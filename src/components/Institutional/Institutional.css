@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 110.29px;
 }
 
 .container-institutional-card {
@@ -10,10 +11,11 @@
   align-items: center;
   gap: 60px;
   padding: 0px 40px;
-  width: 360px;
+  width: 320px;
 }
 
 .container-institutional-description {
+  text-transform: uppercase;
   font-size: 24px;
   font-weight: 300;
   line-height: 36px;
@@ -42,8 +44,15 @@
   text-align: right;
   text-decoration: none;
   color: var(--color-1);
+  text-transform: uppercase;
 }
 
 .container-institutional-icon {
   filter: invert(1);
+}
+
+@media (min-width: 1025px) {
+  .container-institutional-card {
+    width: 480px;
+  }
 }

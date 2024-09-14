@@ -92,14 +92,16 @@ const Home = (props) => {
             }
           />
         ) : (
-          <Header />
+          <Header
+            data={props.data || Data.find((e) => e.headerDesktop).headerDesktop}
+          />
         )}
         {isMobile ? (
           <Banner1
             data={props.data || Data.find((e) => e.bannerMobile).bannerMobile}
           />
         ) : (
-          <Banner1 />
+          <Banner1 data={Data.find((e) => e.banner1Desktop).banner1Desktop} />
         )}
         <SectionBanner1 />
         <Institutional />

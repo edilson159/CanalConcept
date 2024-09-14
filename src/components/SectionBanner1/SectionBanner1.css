@@ -72,3 +72,18 @@
 .container-section-banner-1-img {
   width: 100%;
 }
+
+@media (min-width: 1025px) {
+  .container-section-banner-1 {
+    flex-direction: unset;
+    gap: 20px;
+  }
+
+  .card-1 {
+    padding-left: 10px;
+  }
+
+  .card-2 {
+    padding-right: 10px;
+  }
+}
