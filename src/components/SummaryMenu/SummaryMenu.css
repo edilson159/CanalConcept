@@ -61,7 +61,7 @@ details summary::-webkit-details-marker {
   height: 11px;
 }
 
-.container-summary-menu-item {
+.container-summary-menu .container-summary-menu-item {
   font-size: 14px;
   font-weight: 300;
   line-height: 26px;

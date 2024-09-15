@@ -7,7 +7,7 @@ const HeaderBenefit = (props) => {
     <header className="container-header-benefit">
       {props.data.map(({ name }, index) =>
         isMobile ? (
-          name === "parcele em até 10x sem juros " && (
+          name === "parcele em até 10x sem juros" && (
             <p className="container-header-benefit-item" key={index}>
               {name}
             </p>
