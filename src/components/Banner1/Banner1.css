@@ -120,3 +120,46 @@
   filter: invert(1);
   font-size: 13px !important ;
 }
+
+@media (min-width: 1025px) {
+  .container-banner-1-description {
+    display: unset;
+    position: absolute;
+    z-index: 1000000000000;
+    bottom: 185px;
+    left: 145px;
+    width: 100%;
+  }
+
+  .container-banner-1 button.slick-arrow.slick-prev {
+    background-image: url(/public/imgs/arrowLeft.svg);
+    left: 175px;
+    z-index: 100000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+    width: 21px;
+    bottom: 100px;
+  }
+
+  .container-banner-1 button.slick-arrow.slick-next {
+    background-image: url(/public/imgs/arrowRigth.svg);
+    right: unset;
+    left: 310px;
+    z-index: 100000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+    width: 21px;
+    bottom: 100px;
+    top: unset;
+  }
+
+  .container-banner-1 .slick-dots {
+    bottom: 108.5px;
+    left: 210px;
+    background-color: transparent;
+    width: unset;
+    height: unset;
+  }
+}

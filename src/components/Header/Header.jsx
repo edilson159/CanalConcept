@@ -36,8 +36,48 @@ const Header = (props) => {
                   />
                 )
             )}
+            {!isMobile && (
+              <div className="container-header-search">
+                {props.data
+                  .find((e) => e.icons)
+                  .icons.map(
+                    ({ icon }, index) =>
+                      icon === "../imgs/iconSearch.svg" && (
+                        <img key={index} src={icon} alt="" />
+                      )
+                  )}
+                {props.data
+                  .find((e) => e.names)
+                  .names.map(
+                    ({ name, link }, index) =>
+                      name === "_buscar" && (
+                        <a key={index} href={link}>
+                          {name}
+                        </a>
+                      )
+                  )}
+              </div>
+            )}
           </div>
         </div>
+        {!isMobile && (
+          <div className="container-header-names">
+            {props.data
+              .find((e) => e.names)
+              .names.map(
+                ({ name, link }, index) =>
+                  name !== "_buscar" && (
+                    <a
+                      className={name === "outlet" ? "name-outlet" : ""}
+                      key={index}
+                      href={link}
+                    >
+                      {name}
+                    </a>
+                  )
+              )}
+          </div>
+        )}
         <div className="container-header-card-2">
           {props.data.map(({ icon }, index) =>
             icon === "../imgs/iconSearch.svg" ? (
@@ -59,6 +99,32 @@ const Header = (props) => {
               <p>{number}</p>
             </div>
           ))}
+
+          {!isMobile &&
+            props.data
+              .find((e) => e.icons)
+              .icons.slice(1, 4)
+              .map(({ icon }, index) => (
+                <img
+                  className="container-header-icons"
+                  key={index}
+                  src={icon}
+                  alt=""
+                />
+              ))}
+
+          {!isMobile &&
+            props.data
+              .find((e) => e.icons)
+              .icons.slice(4, 5)
+              .map(({ icon, number }, index) => (
+                <div className="container-header-card-2-p1" key={index}>
+                  <div className="container-header-card-3">
+                    <img src={icon} alt="" />
+                  </div>
+                  <p>{number}</p>
+                </div>
+              ))}
         </div>
       </div>
     </header>

@@ -82,7 +82,7 @@ const Home = (props) => {
         <HeaderBenefit
           data={props.data || Data.find((e) => e.headerBenfit).headerBenfit}
         />
-        {isMobile ? (
+        {isMobile && (
           <Header
             data={
               props.data ||
@@ -91,16 +91,22 @@ const Home = (props) => {
               ).informations
             }
           />
-        ) : (
+        )}
+
+        {!isMobile && (
           <Header
             data={props.data || Data.find((e) => e.headerDesktop).headerDesktop}
+            // names={props.name || Data.find(e => e.headerDesktop).headerDesktop.find(e => e.names)}
           />
         )}
-        {isMobile ? (
+
+        {isMobile && (
           <Banner1
             data={props.data || Data.find((e) => e.bannerMobile).bannerMobile}
           />
-        ) : (
+        )}
+
+        {!isMobile && (
           <Banner1 data={Data.find((e) => e.banner1Desktop).banner1Desktop} />
         )}
         <SectionBanner1 />

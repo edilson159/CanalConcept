@@ -462,25 +462,31 @@ const Data = [
   {
     headerDesktop: [
       {
-        img: "../imgs/logoMain.svg",
+        icon: "../imgs/logoMain.svg",
         names: [
           {
             name: "_buscar",
+            link: "//",
           },
           {
             name: "new in",
+            link: "//",
           },
           {
             name: "roupas",
+            link: "//",
           },
           {
             name: "essential",
+            link: "//",
           },
           {
             name: "jeans",
+            link: "//",
           },
           {
             name: "outlet",
+            link: "//",
           },
         ],
       },

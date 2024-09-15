@@ -121,3 +121,42 @@
   text-align: left;
   text-decoration: line-through;
 }
+
+.container-showCase-products button.slick-prev {
+  z-index: 100000;
+  left: 20px;
+  top: 0px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: var(--color-2);
+  cursor: pointer;
+  background-image: url(/public/imgs/buttonLeft.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-showCase-products button.slick-prev::before {
+  color: transparent;
+  background-color: transparent;
+  content: "";
+}
+.container-showCase-products button.slick-next {
+  z-index: 100000;
+  right: 20px;
+  top: 0px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: var(--color-2);
+  cursor: pointer;
+  background-image: url(/public/imgs/buttonRigth.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-showCase-products button.slick-next::before {
+  color: transparent;
+  background-color: transparent;
+  content: "";
+}

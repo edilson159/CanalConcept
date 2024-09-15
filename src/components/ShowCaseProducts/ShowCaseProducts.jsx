@@ -9,7 +9,6 @@ const ShowCaseProducts = () => {
     slidesToShow: 4.5,
     slidesToScroll: 4,
     initialSlide: 0,
-    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -17,7 +16,6 @@ const ShowCaseProducts = () => {
           infinite: true,
           slidesToShow: 3,
           slidesToScroll: 3,
-          arrows: false,
         },
       },
       {
