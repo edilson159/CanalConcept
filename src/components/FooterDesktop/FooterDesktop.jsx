@@ -20,19 +20,14 @@ const FooterDesktop = () => {
           </div>
           <div className="container-footer-desktop-card-1-p2">
             {Data.find((e) => e.footer).footer.map(({ img, name }, index) => (
-              <div
-                className="container-footer-desktop-card-1-p2-card"
-                key={index}
-              >
+              <div key={index}>
                 {name && <p>{name}</p>}
-                {img && (
+                {img === "../imgs/pgmt.svg" ||
+                img === "../imgs/certificado.svg" ? (
                   <div className="container-footer-desktop-card-1-p2-card-p1">
-                    {img === "../imgs/pgmt.svg" ||
-                    img === "../imgs/certificado.svg" ? (
-                      <img key={index} src={img} alt="" />
-                    ) : null}
+                    <img key={index} src={img} alt="" />
                   </div>
-                )}
+                ) : null}
               </div>
             ))}
           </div>

@@ -77,7 +77,8 @@
 
 @media (min-width: 1025px) {
   .container-register {
-    border: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
     margin-top: 0px;
     width: 388px;
   }
