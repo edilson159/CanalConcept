@@ -9,6 +9,10 @@
   overflow: auto;
 }
 
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 .container-summary-menu-details {
   display: flex;
   flex-direction: column;
