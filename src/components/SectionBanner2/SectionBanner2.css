@@ -1,9 +1,19 @@
 .container-section-banner-2 {
   display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f7f7f7;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container-section-banner-2-card-main {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 9px;
-  width: 100%;
+  width: 96%;
+  max-width: 1280px;
 }
 
 .container-section-banner-2-card {
@@ -46,6 +56,42 @@
   color: var(--color-2);
 }
 
-.container-section-banner-2-img {
+.container-section-banner-2-card .container-section-banner-2-img {
   width: 100%;
+  height: 100%;
+}
+
+.container-section-banner-2-card-2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-section-banner-2-card-2 .container-section-banner-2-img {
+  max-width: 280px;
+  max-height: 420px;
+}
+
+.container-section-banner-2-card-2 .container-section-banner-2-description {
+  position: unset;
+  width: 253px;
+  height: unset;
+  color: var(--color-1);
+}
+
+.container-section-banner-2-card-2 .container-section-banner-2-description p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+
+@media (min-width: 1025px) {
+  .container-section-banner-2-card-main {
+    flex-direction: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

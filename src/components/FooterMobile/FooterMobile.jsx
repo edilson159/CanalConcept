@@ -4,14 +4,12 @@ import "./FooterMobile.css";
 const FooterMobile = () => {
   return (
     <footer className="container-footer-mobile">
-      {Data.find((e) => e.footerMobile).footerMobile.map(
-        ({ img, name }, index) => (
-          <div className="container-footer-mobile-card" key={index}>
-            <img src={img} alt="" />
-            <p>{name}</p>
-          </div>
-        )
-      )}
+      {Data.find((e) => e.footer).footer.map(({ img, name }, index) => (
+        <div className="container-footer-mobile-card" key={index}>
+          <img src={img} alt="" />
+          {name && <p>{name}</p>}
+        </div>
+      ))}
     </footer>
   );
 };

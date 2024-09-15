@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100%;
   height: 20px;
+  max-width: 1280px;
 }
 
 .container-header-benefit-item {
@@ -14,4 +15,10 @@
   line-height: 11.72px;
   letter-spacing: 0.2em;
   text-align: center;
+}
+
+@media (min-width: 1025px) {
+  .container-header-benefit {
+    justify-content: space-around;
+  }
 }

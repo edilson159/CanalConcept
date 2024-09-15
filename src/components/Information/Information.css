@@ -25,3 +25,14 @@
   text-decoration: none;
   color: var(--color-1);
 }
+
+@media (min-width: 1025px) {
+  .container-informations {
+    display: flex;
+    flex-direction: row;
+    border: none;
+  }
+  .container-informations-card {
+    padding: unset;
+  }
+}

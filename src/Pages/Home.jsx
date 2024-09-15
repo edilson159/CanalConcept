@@ -13,6 +13,7 @@ import SectionBanner2 from "../components/SectionBanner2/SectionBanner2";
 import Register from "../components/Register/Register";
 import Information from "../components/Information/Information";
 import FooterMobile from "../components/FooterMobile/FooterMobile";
+import FooterDesktop from "../components/FooterDesktop/FooterDesktop";
 
 const Home = (props) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
@@ -114,9 +115,14 @@ const Home = (props) => {
         <ShowCaseProducts />
         <ShowCaseCategory />
         <SectionBanner2 />
-        <Register />
-        <Information />
-        <FooterMobile />
+        {isMobile && (
+          <>
+            <Register />
+            <Information />
+            <FooterMobile />{" "}
+          </>
+        )}
+        {!isMobile && <FooterDesktop />}
       </section>
     </Context.Provider>
   );

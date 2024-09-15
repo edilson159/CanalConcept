@@ -443,7 +443,7 @@ const Data = [
     ],
   },
   {
-    footerMobile: [
+    footer: [
       {
         img: "../imgs/imgSocial.svg",
       },

@@ -1,8 +1,16 @@
 .container-section-banner-1 {
   display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-section-banner-1-card-main {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1280px;
 }
 
 .container-section-banner-1-card {
@@ -19,6 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 0px 30px;
   color: var(--color-2);
@@ -74,7 +83,7 @@
 }
 
 @media (min-width: 1025px) {
-  .container-section-banner-1 {
+  .container-section-banner-1-card-main {
     flex-direction: unset;
     gap: 20px;
   }
@@ -85,5 +94,22 @@
 
   .card-2 {
     padding-right: 10px;
+  }
+
+  .container-section-banner-1-description {
+    max-width: 324px;
+    gap: 30px;
+  }
+
+  .container-section-banner-1-title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.3em;
+    text-align: center;
+  }
+
+  .container-section-banner-1-paragraph {
+    margin-top: 18px;
   }
 }

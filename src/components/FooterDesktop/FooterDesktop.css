@@ -1,0 +1,46 @@
+.container-footer-desktop {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container-footer-desktop-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.container-footer-desktop-card-1 {
+  padding-left: 20px;
+}
+
+.container-footer-desktop-card-1-p1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer-desktop-card-1-p1-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.container-footer-desktop-card-1-p2 {
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid #e2e2e2;
+  padding: 26px 24px 36px 0px;
+  gap: 42px;
+}
+
+.container-footer-desktop-card-1-p2-card p {
+  width: 438px;
+  padding-right: 42px;
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}

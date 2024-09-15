@@ -48,6 +48,11 @@
   font-family: var(--font-1);
   text-transform: uppercase;
   color: var(--color-1);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: left;
 }
 
 .container-register-button {
@@ -68,4 +73,45 @@
   height: 50px;
   background-color: transparent;
   font-family: var(--font-1);
+}
+
+@media (min-width: 1025px) {
+  .container-register {
+    border: 1px solid #e2e2e2;
+    margin-top: 0px;
+    width: 388px;
+  }
+
+  .container-register-header {
+    display: flex;
+    gap: 10px;
+  }
+
+  .container-register-header h2 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    width: 217px;
+  }
+
+  .container-register-header p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    width: 177px;
+  }
+
+  .container-register-header span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .container-register-button {
+    justify-content: start;
+  }
 }
