@@ -29,7 +29,6 @@
   height: 100%;
   width: 100%;
   color: var(--color-2);
-  text-transform: uppercase;
 }
 
 .container-section-banner-2-description h2 {
@@ -39,6 +38,7 @@
   letter-spacing: 0.62em;
   text-align: center;
   width: 380px;
+  text-transform: uppercase;
 }
 
 .container-section-banner-2-description-p1 {
@@ -54,6 +54,7 @@
   text-align: right;
   text-decoration: none;
   color: var(--color-2);
+  text-transform: uppercase;
 }
 
 .container-section-banner-2-card .container-section-banner-2-img {
