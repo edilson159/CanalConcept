@@ -7,23 +7,23 @@ const ShowCaseProducts = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4.5,
-    slidesToScroll: 4,
+    slidesToScroll: 4.5,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 3.5,
+          slidesToScroll: 3.5,
         },
       },
       {
         breakpoint: 600,
         settings: {
           infinite: false,
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 2.5,
+          slidesToScroll: 2.5,
           initialSlide: 2,
           arrows: false,
         },

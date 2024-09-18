@@ -6,16 +6,16 @@ const ShowCaseCategory = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 4.5,
+    slidesToScroll: 4.5,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 3.5,
+          slidesToScroll: 3.5,
         },
       },
       {
