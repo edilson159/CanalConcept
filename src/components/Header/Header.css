@@ -34,13 +34,9 @@
   background-color: var(--color-2);
 }
 
-.active {
-  top: 0px;
-}
-
 .active .container-header-card {
   background-color: var(--color-2);
-  top: 0px;
+  margin: 0px 10px;
 }
 
 .container-header-card-1 {
