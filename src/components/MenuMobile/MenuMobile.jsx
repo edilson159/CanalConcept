@@ -3,8 +3,9 @@ import UseContext from "../Hook/UseContext";
 import Data from "../Data/Data";
 import SummaryMenu from "../SummaryMenu/SummaryMenu";
 import FooterMenu from "../FooterMenu/FooterMenu";
+import Header from "../Header/Header";
 
-function Drawer({ open }) {
+function Drawer({ open }, props) {
   return (
     <div
       className={`${

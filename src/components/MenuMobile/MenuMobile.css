@@ -20,13 +20,16 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.container-drawer-.container-drawer {
+  left: -1000px;
+}
+
 .container-drawer-p {
   visibility: visible;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .container-drawer- {
-  display: none;
   background-color: rgba(0, 0, 0, 0.8);
   transition: all;
 }
@@ -38,6 +41,16 @@
   height: 20px;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-drawer- .container-drawer-p2 {
+  left: -1000px;
+  transition: left 1s ease;
+}
+
+.container-drawer-p .container-drawer-p2 {
+  left: 10px;
+  transition: left 1s ease;
 }
 
 .container-drawer-p2 {
