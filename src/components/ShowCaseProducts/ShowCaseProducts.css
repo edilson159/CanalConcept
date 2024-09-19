@@ -5,6 +5,7 @@
 .container-showCase-products .slick-track {
   display: flex;
   gap: 4px;
+  cursor: grab;
 }
 
 .container-showCase-products-header {

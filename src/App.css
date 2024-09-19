@@ -3,3 +3,11 @@
 body {
   font-family: var(--font-1);
 }
+
+a {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
