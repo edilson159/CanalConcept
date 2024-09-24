@@ -36,7 +36,7 @@
 
 .active .container-header-card {
   background-color: var(--color-2);
-  margin: 0px 10px;
+  margin: 0px 10px 0px 14px;
 }
 
 .container-header-card-1 {
